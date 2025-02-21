@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     // Clone the repository from GitHub
-                    git 'https://github.com/KyathamRohith/simple.git'
+                    git branch: 'main', url: 'https://github.com/KyathamRohith/simple.git'
                 }
             }
         }
